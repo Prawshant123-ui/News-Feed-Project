@@ -1,0 +1,32 @@
+.skeleton-card {
+  background: var(--paper-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.skeleton-card__media {
+  aspect-ratio: 16/9;
+  width: 100%;
+}
+
+.skeleton-card__body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.skeleton-card__tag { height: 20px; width: 70px; }
+.skeleton-card__title { height: 22px; width: 90%; }
+.skeleton-card__title--short { width: 65%; }
+.skeleton-card__line { height: 14px; width: 100%; }
+.skeleton-card__line--short { width: 75%; }
+
+.skeleton-card__footer {
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  margin-top: 4px;
+}
+
+.skeleton-card__author { height: 14px; width: 120px; }

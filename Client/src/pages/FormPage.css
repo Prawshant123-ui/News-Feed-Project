@@ -1,0 +1,112 @@
+.form-page {
+  min-height: 100vh;
+  display: flex;
+  background: var(--paper);
+}
+
+.form-page__sidebar {
+  width: 220px;
+  flex-shrink: 0;
+  background: var(--ink);
+  padding: 28px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.form-page__sidebar-logo {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 900;
+  color: var(--paper);
+}
+
+.form-page__sidebar-logo span {
+  color: var(--accent);
+  font-size: 10px;
+  margin-left: 2px;
+}
+
+.form-page__sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-page__sidebar-link {
+  font-size: 13.5px;
+  color: rgba(255,255,255,0.55);
+  padding: 8px 10px;
+  border-radius: var(--radius);
+  transition: all var(--transition);
+}
+
+.form-page__sidebar-link:hover {
+  color: white;
+  background: rgba(255,255,255,0.07);
+}
+
+.form-page__main {
+  flex: 1;
+  min-width: 0;
+  padding: 40px 48px;
+  max-width: 860px;
+}
+
+.form-page__header {
+  margin-bottom: 36px;
+  padding-bottom: 24px;
+  border-bottom: 2px solid var(--ink);
+}
+
+.form-page__breadcrumb {
+  font-size: 12.5px;
+  color: var(--ink-muted);
+  margin-bottom: 12px;
+}
+
+.form-page__breadcrumb a {
+  color: var(--ink-muted);
+  transition: color var(--transition);
+}
+.form-page__breadcrumb a:hover { color: var(--accent); }
+
+.form-page__title {
+  font-family: var(--font-display);
+  font-size: 36px;
+  font-weight: 900;
+  color: var(--ink);
+  letter-spacing: -0.5px;
+  margin-bottom: 6px;
+}
+
+.form-page__subtitle {
+  font-size: 14px;
+  color: var(--ink-muted);
+}
+
+.form-page__body { }
+
+.form-page__loading {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+}
+
+.form-page__spinner {
+  width: 36px;
+  height: 36px;
+  border: 3px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .form-page__sidebar { display: none; }
+  .form-page__main { padding: 24px 20px; }
+}
