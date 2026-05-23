@@ -10,6 +10,8 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Site-brightgreen?style=for-the-badge&logo=vercel&logoColor=white)](https://newsflow01.netlify.app/)
+
 </div>
 
 ---
@@ -188,6 +190,8 @@ The NewsFlow interface is inspired by the clean, editorial aesthetic of BBC News
 ---
 
 ## 🚀 Deployment
+
+🌐 **Live Site:** [your-live-url.com](https://newsflow01.netlify.app/)
 
 - **Frontend:** [Vercel](https://vercel.com) / [Netlify](https://netlify.com)
 - **Backend:** [Render](https://render.com) / [Railway](https://railway.app)
