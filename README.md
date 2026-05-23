@@ -86,8 +86,9 @@ NewsFlow/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/newsflow.git
-cd newsflow
+git clone git clone https://github.com/Prawshant123-ui/NewsFlow.git
+cd NewsFlow
+
 ```
 
 ### 2. Configure Environment Variables
