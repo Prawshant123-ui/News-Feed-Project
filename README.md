@@ -191,7 +191,7 @@ The NewsFlow interface is inspired by the clean, editorial aesthetic of BBC News
 
 ## 🚀 Deployment
 
-🌐 **Live Site:** [your-live-url.com](https://newsflow01.netlify.app/)
+🌐 **Live Site:** (https://newsflow01.netlify.app/)
 
 - **Frontend:** [Vercel](https://vercel.com) / [Netlify](https://netlify.com)
 - **Backend:** [Render](https://render.com) / [Railway](https://railway.app)
@@ -219,5 +219,5 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 <div align="center">
-  Made with ❤️ by <a href="https://github.com/your-username">your-username</a>
+  Made with ❤️ by <a href="https://github.com/Prawshant123-ui">Prashant Sharma</a>
 </div>
